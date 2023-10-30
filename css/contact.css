@@ -1,0 +1,6 @@
+nav ul li:nth-child(3) a{
+    background-color: rgb(39, 55, 77);
+    color: white;
+    border-radius: 5px;
+    cursor: context-menu;
+}
