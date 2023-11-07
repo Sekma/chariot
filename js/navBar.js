@@ -10,4 +10,11 @@ $(document).ready(function(){
             $("#head").removeClass("positionTop");
         }
     });
+
+
 });
+    
+function toggleMenu() {
+    $('.burger-toggle').toggleClass('active');
+    $('nav').toggleClass('active');
+  }

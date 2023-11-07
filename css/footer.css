@@ -100,7 +100,7 @@ footer .redLine{
     margin-bottom: 15px;
 }
 .footerPart3{
-    padding: 50px;
+    padding: 20px;
 }
 .footerPart3 span{
     font-size: x-small;
@@ -125,6 +125,9 @@ footer .redLine{
         flex-direction: column;
         align-items: center;
         height: 600px;
+    }
+    footer .footerPart2 .pages{
+        width: 100%;
     }
 }
 /* END of Style footer */
