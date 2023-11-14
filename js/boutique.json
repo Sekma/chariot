@@ -1,0 +1,4 @@
+{
+    "catA":{"title":"Catégorie 'A'", "image":["A/A1.jpg","A/A2.jpg","A/A3.jpg","A/A4.jpg","A/A5.jpg","A/A6.jpg","A/A7.jpg","A/A8.jpg","A/A9.jpg","A/A10.jpg","A/A11.jpg"]},
+    "catB":{"title":"Catégorie 'C'", "image":["C/DS1.jpg","C/DS2.jpg"]}
+}
