@@ -1,0 +1,43 @@
+#pageContent{
+    display: flex;
+}
+#pageContent aside{
+    width: 20%;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+#pageContent main{
+    width: 80%;
+}
+#pageContent h1, #boutique-item h1{
+    text-align: center;
+    margin: 150px auto 50px auto;
+}
+#pageContent #Categorie{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#pageContent #Categorie li{
+    list-style-type: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#pageContent #Categorie li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color: black;
+}
+#pageContent #Categorie li a:hover{
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+#pageContent #Categorie li a span{
+    background-color: #61122f;
+    color: #f6b319;
+    opacity: 0.8;
+    padding: 10px;
+}

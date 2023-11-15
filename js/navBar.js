@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+/* $(document).ready(function(){
     $(window).scroll(function(){
         if($(window).scrollTop()>0){
             $("#head").addClass("positionTop");
@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
 
 
-});
+}); */
     
 function toggleMenu() {
     $('.burger-toggle').toggleClass('active');

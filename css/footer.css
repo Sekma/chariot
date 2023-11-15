@@ -10,12 +10,12 @@ footer .logo{
 .footerPart1{
     height: 550px;
     padding: 50px;
-    background-color: rgb(39, 55, 77);
+    background-color: #61122f;
     color: white;
 }
 .footerPart1 h2{
     font-family: Verdana;
-    color: rgb(201, 14, 14);
+    color: #f6b319;
     text-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
 }
  .footerPart1 p{
@@ -41,13 +41,13 @@ footer button{
     border-radius: 5px;
     border: none;
     color: rgb(221, 230, 237);
-    background-color: rgb(0, 13, 31);
+    background-color: #130309;
     font-weight: bold;
     margin: 5px;
 }
 
 footer button:hover{
-color: rgb(39, 55, 77);
+color: #130309;
 cursor: pointer;
 background-color: rgb(221, 230, 237);
 }
@@ -73,7 +73,7 @@ footer .footerPart2{
     font-size: small;
     opacity: 0.8;
 }
-.footerPart2 .pages1 h3, .footerPart2 .pages2 h3{
+.footerPart2 .pages1 h3, .footerPart2 .pages2 h3, .contact h2{
     margin: 15px;
 }
 .footerPart2 .pages1 a, .footerPart2 .pages2 a{

@@ -13,17 +13,22 @@ body {
 }
 
 /* Style ligne 1 */
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
  .ligne1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
     padding: 0 10px;
-    background-color: white;
+    background-color: #61122f;
   }
   .ligne1-left h2{
       font-family: Verdana;
-      color: rgb(201, 14, 14);
+      color: #f6b319;
       text-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
   }
   .ligne1-right h5{
@@ -31,16 +36,15 @@ body {
   }
   .ligne1-right h4{
     font-family: Verdana;
-    color: rgb(201, 14, 14);
+    color: #f6b319;
   }
   /* style ligne 2 */
   nav{
-      background-color: white;
-      position: fixed;
+      background-color: #61122f;
       z-index: 1;
       display: flex;
       width: 100%;
-      border-bottom: 2px solid rgb(201, 14, 14);
+      border-bottom: 2px solid #61122f;
       box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
       height: 55px;
       transition: height 0.5s;
@@ -66,13 +70,14 @@ body {
   .navBar-left ul a{
       text-decoration: none;
       font-family: 'lato';
-      color: rgb(0, 0, 0);
+      color: white;
+      font-size: small;
       padding: 15px 25px;
   }
   
   .navBar-left ul a:hover, .navBar-right h5 a:hover{ 
       cursor: pointer;
-      color: rgb(201, 14, 14);
+      color: #f6b319;
       transition: all 0.5s;
   }
   .navBar-right, .ligne1-right{
@@ -83,7 +88,7 @@ body {
   .navBar-right h5 a, .ligne1-right h5 a{
     text-decoration: none;
     font-family: 'lato';
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 15px;
   }
   .navBar-right h5 a span, .ligne1-right h5 a span{
@@ -105,7 +110,7 @@ body {
     .line {
       width: 100%;
       height: 3px;
-      background-color: rgb(20, 40, 70);
+      background-color: white;
       transition: all 0.5s;
     }
 
@@ -167,7 +172,7 @@ nav.active ul li:nth-child(4){
 
   .burger-toggle.active .line:nth-child(1) {
     transform: translateY(8px) rotate(-45deg);
-    background-color: rgb(201, 14, 14);
+    background-color: #f6b319;;
     transition: all 0.5s;
     }
     
@@ -178,7 +183,7 @@ nav.active ul li:nth-child(4){
     
     .burger-toggle.active .line:nth-child(3) {
       transform: translateY(-8px) rotate(45deg);
-      background-color: rgb(201, 14, 14);
+      background-color: #f6b319;;
       transition: all 0.5s;
     }
     

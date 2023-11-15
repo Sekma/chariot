@@ -1,4 +1,21 @@
 {
-    "catA":{"title":"Catégorie 'A'", "image":["A/A1.jpg","A/A2.jpg","A/A3.jpg","A/A4.jpg","A/A5.jpg","A/A6.jpg","A/A7.jpg","A/A8.jpg","A/A9.jpg","A/A10.jpg","A/A11.jpg"]},
-    "catB":{"title":"Catégorie 'C'", "image":["C/DS1.jpg","C/DS2.jpg"]}
+    "catA":{"title":"Catégorie 'A'",
+            "articles":{"images":["A/A1.jpg","A/A2.jpg","A/A3.jpg","A/A4.jpg","A/A5.jpg","A/A6.jpg","A/A7.jpg","A/A8.jpg","A/A9.jpg","A/A10.jpg","A/A11.jpg"],
+                        "names":["Article 1","Article 2","Article 3","Article 4","Article 5","Article 6","Article 7","Article 8","Article 9","Article 10","Article 11"],
+                        "prices":["8.700","6.650","16.490","5.990","27.500","8.210","9.830","22.950","4.250","1.250","11.250"]
+                       }
+            },
+    "catB":{"title":"Catégorie 'B'",
+            "articles":{"images":["B/B1.jpg","B/B2.jpg","B/B3.jpg","B/B4.jpg","B/B5.jpg","B/B6.jpg","B/B7.jpg","B/B8.jpg","B/B9.jpg","B/B10.jpg","B/B11.jpg","B/B12.jpg","B/B13.jpg","B/B14.jpg","B/B15.jpg","B/B16.jpg"],
+                        "names":["Article 1","Article 2","Article 3","Article 4","Article 5","Article 6","Article 7","Article 8","Article 9","Article 10","Article 11","Article 12","Article 13","Article 14","Article 15","Article 16"],
+                        "prices":["8.700","6.650","16.490","5.990","27.500","8.210","9.830","22.950","4.250","1.250","11.250","27.500","8.210","9.830","22.950","4.250"]
+                       }
+            },
+    "catC":{"title":"Catégorie 'C'",
+            "articles":{"images":["C/C1.jpg","C/C2.jpg"],
+                        "names":["Article 1","Article 2"],
+                        "prices":["3.520","5.450"]
+                        }
+                        
+            }
 }

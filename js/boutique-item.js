@@ -5,9 +5,17 @@ $(document).ready(function (){
         let menuToDisplay = data[searchParams.get('id')];
         $('#boutique-item h1').text(menuToDisplay.title);
         let rootUl = $('#boutique-item ul');
-            $.each(menuToDisplay.image, function(index, image){
-            $(`<li><img src="img/categorie/${image}" /></li>`).appendTo(rootUl);
-        });
+                $.each(menuToDisplay.articles.images, function(index, image){
+                        $(`<li class="article${index}"><img src="img/categorie/${image}" /></li>`).appendTo(rootUl);   
+                       
+               });
+              $("#boutique-item li").each(function (index, element) {
+                // element == this
+                $(`<h3>${menuToDisplay.articles.names[index]}</h3>`).appendTo(this);
+                $(`<p>${menuToDisplay.articles.prices[index]} DT</p>`).appendTo(this);
+              });
+              
+             
         });
     } else {
         window.location.pathname = "boutique.html";
