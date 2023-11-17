@@ -18,6 +18,6 @@ $(document).ready(function (){
              
         });
     } else {
-        window.location.pathname = "boutique.html";
+        window.location.href = "boutique.html";
     }
 });
