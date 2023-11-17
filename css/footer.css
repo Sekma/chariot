@@ -2,9 +2,10 @@
 footer{
     position: relative;
     text-align: center;
+    margin-top: auto;
 }
 footer .logo{
-    width: 150px;
+    width: 100px;
     margin: 0;
 }
 .footerPart1{
@@ -16,7 +17,7 @@ footer .logo{
 .footerPart1 h2{
     font-family: Verdana;
     color: #f6b319;
-    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 4px 3px rgba(246, 179, 25, 0.4);
 }
  .footerPart1 p{
     margin: 30px auto;
@@ -57,7 +58,6 @@ footer .footerPart2{
     justify-content: space-around;
     background-color: white;
     height: 350px;
-    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
 }
 .pages{
     display: flex;
@@ -101,6 +101,8 @@ footer .redLine{
 }
 .footerPart3{
     padding: 20px;
+    background-color: white;
+    box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.5);
 }
 .footerPart3 span{
     font-size: x-small;

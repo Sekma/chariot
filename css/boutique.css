@@ -1,15 +1,14 @@
 #pageContent{
     display: flex;
 }
-#pageContent aside{
-    width: 20%;
-    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.3);
-}
-#pageContent main{
-    width: 80%;
+#pageContent .boutique-main{
+    width: 90%;
+    margin: auto;
 }
 #pageContent h1, #boutique-item h1{
     text-align: center;
+    font-family: 'lato';
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
     margin: 150px auto 50px auto;
 }
 #pageContent #Categorie{
@@ -21,23 +20,58 @@
 #pageContent #Categorie li{
     list-style-type: none;
     text-align: center;
-    border-radius: 5px;
     margin-bottom: 20px;
-    background-color: white;
+    width: 230px;
 }
 #pageContent #Categorie li a{
     text-decoration: none;
+    margin: auto;
     display: flex;
     flex-direction: column;
     width: 200px;
     color: black;
+    font-weight: 600;
+    border: 1px solid rgb(119, 119, 119);
 }
 #pageContent #Categorie li a:hover{
     box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.5);
 }
 #pageContent #Categorie li a span{
-    background-color: #61122f;
-    color: #f6b319;
-    opacity: 0.8;
-    padding: 10px;
+    background-color: rgba(97, 18, 47, 0.346);
+    color: #000000;
+    padding: 8px;
 }
+/* boutique item */
+
+#pageContent .boutique-item-main{
+    width: 100%;
+}
+#pageContent .boutique-item-main ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#pageContent .boutique-item-main ul{
+    list-style-type: none;
+}
+/* @media (max-width: 1170px){
+    #pageContent #Categorie li{
+        width: 25%;
+    }
+}
+@media (max-width: 992px){
+    #pageContent #Categorie li{
+        width: 33%;
+    }
+}
+@media (max-width: 767px){
+    #pageContent #Categorie li{
+        width: 50%;
+    }
+}
+@media (max-width: 480px){
+    #pageContent #Categorie li{
+        width: 100%;
+    }
+} */
