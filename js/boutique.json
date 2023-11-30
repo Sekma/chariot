@@ -27,9 +27,9 @@
     "catD":{"title":"Catégorie 'D'",
             "id":"catD",    
             "articles":{"image0":"D/D.jpg",
-                        "images":["D/D1.jpg","D/D2.jpg","D/D3.jpg","D/D4.jpg","D/D5.jpg","D/D6.jpg","D/D7.jpg","D/D8.jpg","D/D9.jpg","D/D10.jpg","D/D11.jpg","D/D12.jpg","D/D13.jpg","D/D14.jpg","D/D15.jpg","D/D16.jpg","D/D17.jpg","D/D18.jpg","D/D19.jpg","D/D20.jpg","D/D21.jpg","D/D22.jpg","D/D23.jpg","D/D24.jpg","D/D25.jpg","D/D26.jpg","D/D27.jpg","D/D28.jpg"],
-                        "names":["Article 1","Article 2","Article 3","Article 4","Article 5","Article 6","Article 7","Article 8","Article 9","Article 10","Article 11","Article 12","Article 13","Article 14","Article 15","Article 16","Article 17","Article 18","Article 19","Article 20","Article 21","Article 22","Article 23","Article 24","Article 25","Article 26","Article 27","Article 28"],
-                        "prices":["8.700","6.650","16.490","5.990","27.500","8.210","9.830","22.950","4.250","1.250","11.250","8.700","6.650","16.490","5.990","27.500","8.210","9.830","22.950","4.250","1.250","11.250","8.210","9.830","22.950","4.250","1.250","11.250"]
+                        "images":["D/D1.jpg","D/D2.jpg","D/D3.jpg","D/D4.jpg","D/D5.jpg","D/D6.jpg","D/D7.jpg","D/D8.jpg","D/D9.jpg","D/D10.jpg","D/D11.jpg","D/D12.jpg","D/D13.jpg","D/D14.jpg","D/D15.jpg","D/D16.jpg","D/D17.jpg","D/D18.jpg","D/D19.jpg","D/D20.jpg","D/D21.jpg","D/D22.jpg","D/D23.jpg","D/D24.jpg","D/D25.jpg","D/D26.jpg","D/D27.jpg"],
+                        "names":["Article 1","Article 2","Article 3","Article 4","Article 5","Article 6","Article 7","Article 8","Article 9","Article 10","Article 11","Article 12","Article 13","Article 14","Article 15","Article 16","Article 17","Article 18","Article 19","Article 20","Article 21","Article 22","Article 23","Article 24","Article 25","Article 26","Article 27"],
+                        "prices":["8.700","6.650","16.490","5.990","27.500","8.210","9.830","22.950","4.250","1.250","11.250","8.700","6.650","16.490","5.990","27.500","8.210","9.830","22.950","4.250","1.250","11.250","8.210","9.830","22.950","4.250","1.250"]
                        }
             },
     "catE":{"title":"Catégorie 'E'",

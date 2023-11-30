@@ -60,6 +60,7 @@ header{
       height: 55px;
       margin-left: 80px;
       margin-top: 2px;
+      opacity: 0.5;
       transition: margin 0.5s;
   }
   .navBar-left ul{
