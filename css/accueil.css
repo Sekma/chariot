@@ -1,5 +1,6 @@
 .space{
     height: 100px;
+    text-align: center;
 }
 .decorationTitle{
     height: 10px;
@@ -25,6 +26,9 @@
 .home-container .home-container-part1{
    width: 80%;
    margin: 20px auto -50px;
+}
+.home-container .home-container-part1 img{
+    border: 2px solid #f6b319;
 }
 .home-container .home-container-carte{
     width: 80%;
@@ -62,6 +66,27 @@
     text-align: center;
     padding: 8px;
 }
+/* button */
+.btn{
+    margin-top: 80px;
+    border: none;
+}
+.btn a{
+    padding: 15px 100px;
+    text-decoration: none;
+    color: #61122f;
+    font-family: 'lato';
+    font-size: 20px;
+    border: 2px solid #61122f;
+    background-color: #f6b319;
+    transition: all 0.3s;
+}
+.btn a:hover{
+    border: 2px solid #f6b319;
+    color: #f6b319;
+    background-color: #61122f;
+    cursor: pointer;
+}
 /* animation */
 
 .visible{
@@ -92,6 +117,9 @@
 @media (max-width: 767px){
     .home-container .home-container-part1{
         width: 95%;
+     }
+     .btn a{
+        padding: 15px 30px;
      }
      .home-container .home-container-carte .specialites-container ul img, .home-container .home-container-carte .offres-container ul img{
         height: 100px;

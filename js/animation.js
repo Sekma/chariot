@@ -38,7 +38,7 @@ $(document).ready(function (){
                                 },900)
                         }  
                  }else{
-                        if(document.documentElement.scrollTop>100){
+                        if(document.documentElement.scrollTop>20){
                                 $(".home-container-carte #title1").removeClass("visible");
                                 $(".home-container-carte #title1").addClass("slideUp");
                                 setTimeout(function(){
@@ -54,7 +54,7 @@ $(document).ready(function (){
                                         $(".specialites-container ul li:nth-child(3)").addClass("slideUp");
                                 },900)
                         }   
-                        if(document.documentElement.scrollTop>500){
+                        if(document.documentElement.scrollTop>400){
                                 $(".home-container-carte #title2").removeClass("visible");
                                 $(".home-container-carte #title2").addClass("slideUp");
                                 setTimeout(function(){
