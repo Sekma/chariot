@@ -19,6 +19,7 @@ $(document).ready(function () {
          $(".offres-container ul li").addClass("visible");
          $(".home-container-carte #title1").addClass("visible");
          $(".home-container-carte #title2").addClass("visible");
+         $(".home-container-carte #title3").addClass("visible");
         }
     );
 });

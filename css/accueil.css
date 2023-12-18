@@ -19,6 +19,12 @@
     top: 5px;
     left: 20px;
 }
+.presentation{
+    width: 60%;
+    margin: auto;
+    font-family: 'lato';
+    font-size: 1.1rem;
+}
 .home-container{
     margin-top: 120px;
     width: 100%;
@@ -92,6 +98,38 @@
 .visible{
     visibility: hidden;
 }
+.slideLeft {
+    animation-name: slideLeft;
+    animation-duration: 1s;
+    visibility: visible;
+  }
+  
+  @keyframes slideLeft {
+    0% {
+        opacity: 0;
+      transform: translateX(70%);
+    } 
+    100% {
+        opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  .slideRight {
+    animation-name: slideRight;
+    animation-duration: 1s;
+    visibility: visible;
+  }
+  
+  @keyframes slideRight {
+    0% {
+        opacity: 0;
+      transform: translateX(-70%);
+    } 
+    100% {
+        opacity: 1;
+      transform: translateX(0%);
+    }
+  }
 .slideUp {
     animation-name: slideUp;
     animation-duration: 1s;
@@ -113,6 +151,9 @@
     .home-container .home-container-part1{
         width: 90%;
      }
+     .presentation{
+        width: 80%;
+     }
 }
 @media (max-width: 767px){
     .home-container .home-container-part1{
@@ -120,6 +161,9 @@
      }
      .btn a{
         padding: 15px 30px;
+     }
+     .presentation{
+        width: 90%;
      }
      .home-container .home-container-carte .specialites-container ul img, .home-container .home-container-carte .offres-container ul img{
         height: 100px;
